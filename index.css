@@ -1,0 +1,167 @@
+/*
+Comments like this
+*/
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: hotpink;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    text-align: center;
+
+}
+
+p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    text-align: center;
+
+}
+
+h2, h3, h4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    text-align: center;
+
+}
+
+/*id's in html can be referenced here. Can add a html id to anything*/
+#otherh1{
+    color: blue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+#ordered{
+    color: #aa2ec9;
+    background-color: aqua;
+    width: fit-content; 
+    height: fit-content;
+    text-align: center;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+
+    /*margin: 6rem;*/
+    /*padding: 6rem;*/
+}
+
+.veryLong{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+/*
+.class: anything after the dot is considered a class, can style multiple elements. 
+Can add this class to as many elements as you want
+Id's have to be unique, classes don't. 
+*/
+
+.div{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: khaki;
+
+    text-decoration: underline; /*Underlines text*/
+    font-weight: 900; /*Emboldens text. Can replace the number wit the word "bold"*/
+    font-style: italic; /*italicizes text*/
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    
+}
+
+body{
+    /*background-color: #aa2ec9*/
+    background-color: #95ff00;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+/*
+Custom colors: 
+color, rgb() -- hex, hsl() -- hue/saturation/light
+
+color: hsl(240, 100%, 50%)
+color: #ff0000
+color: rgb(stuff)
+
+
+*/
+
+
+/*
+font-size and font-family
+
+
+font-family changes the font
+font-size changes the size of text
+text-align shifts the text to be left, center, or right aligned
+
+
+Can use these on a per-element basis:
+width: fit-content; 
+height: 4rem;
+
+
+Units: 
+px denotes pixels
+em == relative to the font size of the parent
+rem == relative to the font size of the root element
+% == percentage of the parent's width/height. 
+
+Alignment: 
+    Margin and Padding. 
+
+Margin is spacing outside the element. Not part of the element. 
+Padding is the spacing inside the element. Part of the element. 
+
+padding: 20px;
+margin: 20px; 
+
+
+Centering your text on the page: 
+Flexboxes and grids. 
+
+body{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+
+}
+
+
+
+*/
+
+

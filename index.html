@@ -1,0 +1,118 @@
+<!DOCTYPE html> 
+<!-- Ok this makes sense I guess -->
+<!-- I swear there was a better way to do this-->
+
+<html>
+
+    <head>
+        <!-- Header stuff, not really what's in the website, just organizational-->
+        <title>
+            Website Demo
+        </title>
+
+        <!-- Meta tag makes the website reactive-->
+        <meta
+        
+            name = "viewport"
+            content = "width=device-width, height = device-height, initial-scale=1"
+
+        />
+
+        <!-- Link it to a CSS stylesheet, make sure this is placed below the title declaration. -->
+        <link rel="stylesheet" href="index.css">
+
+
+
+
+    </head>
+
+    <body>
+        <!-- Website body stuff-->
+
+        <h1>
+            Demo Website
+        </h1>
+
+        <!-- There exist header tags h1-h6. -->
+
+        <!-- Paragraph tags: <p>. Large blocks of text. Not bolded like the headers. -->
+
+        <p id="otherh1"> This is a bunch of text. Lorem ipsum dolor sit amet. </p>
+
+        <!-- <b> for bold, <u> for underlined, <i> for italicized. Can put these within <p> tags and other places. -->
+
+        <!-- Lists: <ol> and <ul> -- ordered and unordered. Numbered vs bulleted. Each element needs a <li> tag -->
+        
+        <div>
+            <ul>
+                <li>Idk</li>
+                <li class="div">More text here. Bask in the khaki. </li>
+                <li>Third bullet point here</li>
+
+
+            </ul>
+        </div>
+        <!-- <a> -- adds anchors. Links to other places. If your target = "blank" then it'll open in a new tab-->
+
+        <div class="div">
+            <a target = "blank" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley">Just a regular link. Nothing to see here.</a>
+        </div>
+        
+
+
+        <!-- <img /> tag for images. src and alt attributes, src for source url, and alt to specify alternate text. Can also set height and width. -->
+        <!-- src works either with a local image or an image somewhere online-->
+        <!-- Alt text displays if the image doesn't work. Also if someone with visual impairments tries to run it, this may show up instead. -->
+        <img src="img.jpg" alt="image thing" height="100", width = "100"   />
+
+        <img src = "img.jpg" alt = "image2" />
+
+
+        <!-- Newline <br/>. Line break. Can place it in the middle of another tag. -->
+        
+        <div class="div">
+            <p>More text goes here, but alas, <br/> there is a line break. </p>
+        </div>
+
+        <!-- <div> -- dividers. Partition your website into little boxes. Useful for CSS, since you can selectively add styles with these. -->
+        <!-- They can have id and class attributes. id useful for, well, id. class kinda looks like id but verbose. -->
+
+        
+        <div class="veryLong">
+
+            <p> This section is going to be a text dump so that I have stuff to work on</p>
+
+            <ol id="ordered">
+                <li>But I have no idea what to write</li>
+                <li>Second entry</li>
+                <li><a target="blank" href="">Click me.</a></li>
+                <li>And this should be enough text here</li>
+            </ol>
+
+            <h4>How bold is this going to be?</h4>
+            <h3>Does this look weird?</h3>
+            <h2>Yes.</h2>
+            <h1>Yes <br/> it <br/> does.</h1>
+
+            <p>So I went a little trigger happy on the CSS, and now everything's center-aligned. <br/> 
+            And I do mean everything. <br/>
+            So much so that my text is now misaligned from center, <br/>
+            since I centered things within previously centered segments and then added offsets and stuff. <br/>
+            So my bad. <br/>
+            <br/>
+            <br/>
+            Scratch that, I fixed it. 
+            </p>
+
+
+
+        </div>
+
+
+
+    </body>
+
+
+
+</html>
+
